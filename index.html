@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@580&display=swap" rel="stylesheet">
+</head>	
+<style>
+
+		* {
+			box-sizing: border-box;
+		}
+		html {
+			font-size: 16px;
+		}
+		body {
+			background-image: url(1.jpg);
+			margin: 0;
+			font-family: 'Dancing Script', cursive;
+			background-color: #f2f2f2; 
+		}
+		.form-container {
+			background-color: #DEFFF9;
+			max-width: 450px;
+			width: 95%;
+			margin-top: 20rem;
+			margin-left: 45rem;
+			padding: 40px;
+		}
+		#form {
+
+		}
+		input {
+			background-color: #DEFFF9;
+			display: block;
+			width: 100%;
+			margin: 0.5rem 0;
+			padding: 0.4rem 0;
+			outline: none;
+			font-size: 1rem;
+		}
+		.form-heading {
+			margin-top: 0;
+			margin-left: 9rem;
+			font-size: 1.5rem;
+			font-weight: 500; 
+		}
+
+
+	</style>
+<body>
+	<div class="form-container">
+		<h3 class="form-heading">FORM</h3>
+		<form id="form" form action="https://getsimpleform.com/messages?form_api_token=b05ad4f9c68d321180983eaecd17141c" method= "post">
+			<input id="name" name="name" type="text" placeholder="Name">
+			<input id="email" name="_replyto" type="email" placeholder="E-mail">
+			<input id="submit" type="submit" value="Send">
+		</form>
+	</div>
+</body>
+</html>
